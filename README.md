@@ -53,4 +53,4 @@ python ZoneVerifier.py
 
 ## 👤 Autor
 
-Feito por **Marce**
+Feito por **Miguel Filipe**
