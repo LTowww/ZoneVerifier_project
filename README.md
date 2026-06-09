@@ -1,4 +1,4 @@
-📦 Zone Verifier
+📦 Zone Verifier\n
 Verificador de origem de produtos brasileiros desenvolvido em três linguagens: Portugol, Python e C.
 📋 Descrição
 Este programa lê o código de um produto inserido pelo usuário e informa de qual região do Brasil ele é originário — ou se é importado.
