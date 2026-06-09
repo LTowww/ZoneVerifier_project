@@ -1,10 +1,28 @@
-📦 Zone Verifier\n
-Verificador de origem de produtos brasileiros desenvolvido em três linguagens: Portugol, Python e C.
-📋 Descrição
+# 📦 Zone Verifier
+
+Verificador de origem de produtos brasileiros desenvolvido em três linguagens: **Portugol**, **Python** e **C**.
+
+## 📋 Descrição
+
 Este programa lê o código de um produto inserido pelo usuário e informa de qual região do Brasil ele é originário — ou se é importado.
-🗺️ Tabela de Códigos
-CódigoRegião1Sul2Norte3Leste4Oeste5 e 6Nordeste7, 8 e 9Sudeste10Centro-Oeste11NoroesteOutrosImportado
-📁 Estrutura do Repositório
+
+## 🗺️ Tabela de Códigos
+
+| Código | Região |
+|--------|--------|
+| 1 | Sul |
+| 2 | Norte |
+| 3 | Leste |
+| 4 | Oeste |
+| 5 e 6 | Nordeste |
+| 7, 8 e 9 | Sudeste |
+| 10 | Centro-Oeste |
+| 11 | Noroeste |
+| Outros | Importado |
+
+## 📁 Estrutura do Repositório
+
+```
 zone-verifier/
 ├── portugol/
 │   └── zoneverifiercorreto.por
@@ -13,36 +31,39 @@ zone-verifier/
 ├── c/
 │   └── ZoneVerifier.c
 └── README.md
-🚀 Como Executar
-Portugol
+```
 
-Instale o Portugol Studio
-Abra o arquivo portugol/zoneverifiercorreto.por
-Clique em Executar
+## 🚀 Como Executar
 
-Python
+### Portugol
+1. Instale o [Portugol Studio](https://portugol.dev/)
+2. Abra o arquivo `portugol/zoneverifiercorreto.por`
+3. Clique em **Executar**
 
-Certifique-se de ter o Python 3.10+ instalado (necessário para o match/case)
-No terminal, navegue até a pasta python/
-Execute o comando:
+### Python
+1. Certifique-se de ter o [Python 3.10+](https://www.python.org/) instalado (necessário para o `match/case`)
+2. No terminal, navegue até a pasta `python/`
+3. Execute o comando:
+```bash
+python ZoneVerifier.py
+```
 
-bashpython ZoneVerifier.py
-C
-
-Certifique-se de ter o GCC instalado
-No terminal, navegue até a pasta c/
-Compile e execute com os comandos:
-
-bashgcc ZoneVerifier.c -o ZoneVerifier
+### C
+1. Certifique-se de ter o [GCC](https://gcc.gnu.org/) instalado
+2. No terminal, navegue até a pasta `c/`
+3. Compile e execute:
+```bash
+gcc ZoneVerifier.c -o ZoneVerifier
 ./ZoneVerifier
+```
+> **Windows:** o executável gerado será `ZoneVerifier.exe` e pode ser executado diretamente com `ZoneVerifier.exe`.
 
-No Windows, o executável gerado será ZoneVerifier.exe e pode ser executado diretamente com ZoneVerifier.exe.
+## 🛠️ Tecnologias
 
-🛠️ Tecnologias
+- [Portugol Studio](https://portugol.dev/) — linguagem de pseudocódigo em português para aprendizado de lógica
+- [Python 3.10+](https://www.python.org/) — linguagem de propósito geral
+- [C (GCC)](https://gcc.gnu.org/) — linguagem de baixo nível, compilada e de alto desempenho
 
-Portugol Studio — linguagem de pseudocódigo em português para aprendizado de lógica
-Python 3.10+ — linguagem de propósito geral
-C (GCC) — linguagem de baixo nível, compilada e de alto desempenho
+## 👤 Autor
 
-👤 Autor
-Feito por Miguel Filipe
+Feito por **Miguel Filipe**
